@@ -90,7 +90,7 @@ def nn_predict(grid, nn_running):
             else:
                 inputX[-1].append(0)
     model = load_nn.makeModel()
-    print(f'{np.argmax(model.predict([inputX]))}')
+    print(f'{np.argmax(model.predict([inputX])) + 1}')
     nn_running = False
 
 def main(win, width):
