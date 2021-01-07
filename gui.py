@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 WIDTH = 28*15
 ROWS = 28
 WINDOW = pygame.display.set_mode((WIDTH, WIDTH))
-pygame.display.set_caption('Conway\'s Game of Life')
+pygame.display.set_caption('Digit Recognition')
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREY = (150, 150, 150)
